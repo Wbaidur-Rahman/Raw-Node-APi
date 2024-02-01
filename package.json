@@ -4,12 +4,19 @@
   "description": "This is a raw node js project for demonstration",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
+    "start": "NODE_ENV=staging nodemon index",
+    "production": "NODE_ENV=production nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Wbaidur Rahman",
   "license": "ISC",
   "dependencies": {
     "nodemon": "^3.0.3"
+  },
+  "devDependencies": {
+    "eslint": "8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.25.2",
+    "prettier": "^3.2.4"
   }
 }

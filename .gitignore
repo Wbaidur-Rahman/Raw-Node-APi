@@ -1,0 +1,39 @@
+# Node.js-specific
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn.lock
+yarn-lock.json
+
+# Operating system-specific
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Dependency directories
+bower_components
+
+# Optional: Temporary files
+tmp
+
+# Optional: Compiled files
+build
+dist
+
+# Optional: Testing files
+coverage
+
+# IDE-specific files (adjust for your IDE)
+.idea/
+.vscode/
+
+# Secret files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
