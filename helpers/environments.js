@@ -13,12 +13,29 @@ const environments = {};
 
 environments.staging = {
     port: 3000,
-    envName: 'staging'
+    envName: 'staging',
+    secretKey: 'fjhfkjhfkjokjkl',
+    maxChecks: 5,
+    twilio: {
+        fromPhone: '+15005550006',
+        accountSid: 'AC7e1bc17c6bbf2be2dc3881a7825901cb',
+        authToken: '233b1bfcc39651469faf63d0a237f3f0',
+        logincode: 'UJ9E2MVBQJXNT3KR35V43LQ4',
+    }
+
 };
 
 environments.production = {
     port: 5000,
-    envName: 'production'
+    envName: 'production',
+    secretKey: 'jhfdjshifuwieljd',
+    maxChecks: 5,
+    twilio: {
+        fromPhone: '+15005550006',
+        accountSid: 'AC7e1bc17c6bbf2be2dc3881a7825901cb',
+        authToken: '233b1bfcc39651469faf63d0a237f3f0',
+        logincode: 'UJ9E2MVBQJXNT3KR35V43LQ4',
+    }
 };
 
 // determine which environment was passed
